@@ -1,0 +1,67 @@
+body {
+  text-align: center;
+  /* background-color: #011F3F; */
+  background-image: url(./images/wallpaper.jpg);
+  background-size: cover;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  4%;
+  /* color: #FEF2BF; */
+  color: #D4C9BE;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  /* background-color: red; */
+  background-image: url(./images/red\ bg.avif);
+  background-size: cover;
+  opacity: 0.8;
+}
+
+.red {
+  /* background-color: red; */
+  background-image: url(./images/gryffindor\ sq.jpg);
+  background-size: cover;
+}
+
+.green {
+  /* background-color: green; */
+  background-image: url(./images/slytherin\ sq.jpg);
+  background-size: cover;
+}
+
+.blue {
+  /* background-color: blue; */
+  background-image: url(./images/ravenclaw\ sq.jpg);
+  background-size: cover;
+}
+
+.yellow {
+  /* background-color: yellow; */
+  background-image: url(./images/hufflepuff\ sq.jpg);
+  background-size: cover;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  /* background-color: grey; */
+  background-color: #def2f5;
+}
